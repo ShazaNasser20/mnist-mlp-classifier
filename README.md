@@ -84,17 +84,7 @@ Open the Jupyter Notebook or Google Colab file and run all cells sequentially.
 
 ---
 
-## Project Structure
 
-MNIST-MLP-Project/
-│
-├── notebook.ipynb
-├── README.md
-├── results/
-│   └── plots/
-└── data/ (optional)
-
----
 
 ## Author
 Shaza Abdulnaser Sayed  
