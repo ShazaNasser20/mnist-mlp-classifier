@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project implements a Multilayer Perceptron (MLP) model using TensorFlow/Keras to classify handwritten digits from the MNIST dataset.  
-The goal is to build, train, and evaluate a neural network and compare different architectures and hyperparameters.
+The goal is to build, train, and evaluate neural networks and compare different architectures and hyperparameters.
 
 ---
 
@@ -55,36 +55,37 @@ The models were evaluated using:
 | Model 1  | 128 neurons          | 97.25%   | 0.0848 |
 | Model 2  | 256 + 128 neurons    | 97.84%   | 0.0743 |
 
+Sample Results:
+Model 2 achieved the best performance with higher accuracy and lower loss.
+
 ---
 
 ## Visualizations
-The following plots are included in the project:
-- Training vs Validation Loss
-- Training vs Validation Accuracy
+The project includes:
+- Training vs Validation Loss curves
+- Training vs Validation Accuracy curves
 
 ---
 
 ## Experiments
 Two experiments were conducted by modifying:
 - Number of neurons in hidden layers
-- Model depth (number of hidden layers)
-- Learning rate (in Model 2)
+- Number of hidden layers
+- Learning rate
 
-Model 2 showed improved performance compared to the baseline model.
+Model 2 showed better performance compared to Model 1.
 
 ---
 
 ## How to Run the Project
 
-### Install dependencies
+Install dependencies:
 pip install tensorflow numpy matplotlib
 
-### Run the notebook
-Open the Jupyter Notebook or Google Colab file and run all cells sequentially.
+Run the notebook:
+Open the Jupyter Notebook or Google Colab file and execute all cells sequentially.
 
 ---
-
-
 
 ## Author
 Shaza Abdulnaser Sayed  
@@ -93,5 +94,5 @@ Faculty of Artificial Intelligence and Data Management
 ---
 
 ## Notes
-- This project is implemented as part of the Neural Networks course requirements.
-- The MLP model is used for educational purposes to understand deep learning fundamentals.
+This project is part of the Neural Networks course requirements.  
+It demonstrates the implementation and evaluation of an MLP model for image classification.
